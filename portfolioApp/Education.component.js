@@ -9,15 +9,15 @@ var Education = React.createClass({
 
 					<div><h3>Education</h3></div>
 
-					<div>
+					<div className="row">
 
-						<div>
+						<div className="col-md-5">
 							<h5>DevMountain</h5>
 							<p>Graduated Jan 2016</p>
 							<p>Web Develeopment</p>
 						</div>
 
-						<div>
+						<div className="col-md-5">
 							<h5>Utah Valley University</h5>
 							<p>Graudated Dec 2014</p>
 							<p>Integrated Studies</p>

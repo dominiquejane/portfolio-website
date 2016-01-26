@@ -4,20 +4,19 @@ var Connect = React.createClass({
 
 	render() {
 		return (
-			<div> 
-				<div className="container">
-
-					<div><h3>Connect With Me</h3></div>
-
-					<div>
-						<ul>
-							<li>Twitter</li>
-							<li>Github</li>
-							<li>LinkedIn</li>
-						</ul>
-					</div>
-
-				</div>
+			<div > 
+				<nav className="navbar navbar-inverse">
+				  <div className="container-fluid">
+				    <div className="navbar-header active">
+				      Connect:
+				    </div>
+				      <ul className="nav navbar-nav">
+				        <li><a href="#"><img src="../Images/Twitter.png" /></a></li>
+				        <li><a href="#"><img src="../Images/Github.jpg" /></a></li>
+				        <li><a href="#"><img src="../Images/Linkedin.png" /></a></li>
+				      </ul>
+				  </div>
+				</nav>
 			</div>
 		)
 	}
@@ -25,3 +24,4 @@ var Connect = React.createClass({
 });
 
 export default Connect;
+

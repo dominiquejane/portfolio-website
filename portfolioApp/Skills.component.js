@@ -22,6 +22,7 @@ var Skills = React.createClass({
 							<li>CSS</li>
 							<li>Bootstrap</li>
 							<li>React</li>
+							<li>Firebase</li>
 						</ul>
 					</div>
 
