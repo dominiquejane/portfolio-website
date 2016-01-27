@@ -4,25 +4,65 @@ var Skills = React.createClass({
 
 	render() {
 		return (
-			<div> 
+			<div className="row skills"> 
 				<div className="container">
 
-					<div>
-						<h3>Skills</h3>
+					<div className="col-sm-3 title">
+						Skills
 					</div>
 
-					<div>
-						<ul>
-							<li>Javascript</li>
-							<li>AngularJS</li>
-							<li>NodeJS</li>
-							<li>MongoDB</li>
-							<li>Mongoose</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>Bootstrap</li>
-							<li>React</li>
-							<li>Firebase</li>
+					<div className="row">
+						<ul className="col-sm-8 skills-list">
+
+							<div className="row">
+								<li className="col-sm-2 col-sm-offset-2">
+									<div><img src="images/jslogo.png" /></div>
+									Javascript
+								</li>
+								<li className="col-sm-4">
+									<div><img src="images/Angularlogo.png" /></div>
+									AngularJS
+								</li>
+								<li className="col-sm-2">
+									<div><img src="images/nodejs-icon.png" /></div>
+									  NodeJS
+								</li>
+							</div>	
+
+							<div className="row">
+								<li className="col-sm-3">
+									<div><img src="images/mongodb-logo.png" /></div>
+									MongoDB
+								</li>
+								<li className="col-sm-3">
+									<div><img src="images/mongoose.png" /></div>
+									Mongoose
+								</li>
+								<li className="col-sm-3">
+									<div><img src="images/HTML5.png" /></div>
+									HTML
+								</li>
+								<li className="col-sm-3">
+									<div><img src="images/css.png" /></div>
+									CSS
+								</li>
+							</div>
+
+							<div className="row">
+								<li className="col-sm-2 col-sm-offset-2">
+									<div><img src="images/boot.png" /></div>
+									Bootstrap
+								</li>
+								<li className="col-sm-4">
+									<div><img src="images/react.png" /></div>
+									React
+								</li>
+								<li className="col-sm-2">
+									<div><img src="images/firebase.png" /></div>
+									Firebase
+								</li>
+							</div>							
+							
 						</ul>
 					</div>
 

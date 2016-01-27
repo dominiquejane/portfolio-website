@@ -4,12 +4,13 @@ var Experience = React.createClass({
 
 	render() {
 		return (
-			<div> 
+			<div className="about"> 
 				<div className="container">
+				<div className="row">
+					<div className="col-md-3 title">Experience</div>
 
-					<div>
-						<h3>Experience</h3>
-					</div>
+					<div className="col-md-8">
+						<div className="container">
 
 					<div className="row">
 
@@ -27,6 +28,9 @@ var Experience = React.createClass({
 
 					</div>
 
+				</div>
+					</div>
+					</div>
 				</div>
 			</div>
 		)

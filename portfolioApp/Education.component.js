@@ -4,12 +4,17 @@ var Education = React.createClass({
 
 	render() {
 		return (
-			<div> 
+
+			<div className="row skills"> 
 				<div className="container">
 
-					<div><h3>Education</h3></div>
+					<div className="col-sm-3 title">
+						Education
+					</div>
 
-					<div className="row">
+					<div className="container col-sm-8">
+
+						<div className="row">
 
 						<div className="col-md-5">
 							<h5>DevMountain</h5>
@@ -26,7 +31,15 @@ var Education = React.createClass({
 					</div>
 
 				</div>
+
+				</div>
 			</div>
+
+
+
+		
+
+			
 		)
 	}
 

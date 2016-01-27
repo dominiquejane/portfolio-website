@@ -7,13 +7,10 @@ var Connect = React.createClass({
 			<div > 
 				<nav className="navbar navbar-inverse">
 				  <div className="container-fluid">
-				    <div className="navbar-header active">
-				      Connect:
-				    </div>
-				      <ul className="nav navbar-nav">
-				        <li><a href="#"><img src="../Images/Twitter.png" /></a></li>
-				        <li><a href="#"><img src="../Images/Github.jpg" /></a></li>
-				        <li><a href="#"><img src="../Images/Linkedin.png" /></a></li>
+				      <ul className="nav navbar-nav pull-right">
+				        <li><a href="https://twitter.com/dominiqueliau"><img src="images/TwitterLogo_white.png" /></a></li>
+				        <li><a href="https://github.com/dominiquejane"><img src="images/Github-Mark-Light-32px.png" /></a></li>
+				        <li><a href="https://www.linkedin.com/in/dominiqueliau"><img src="images/In-White-34px-R.png" /></a></li>
 				      </ul>
 				  </div>
 				</nav>
