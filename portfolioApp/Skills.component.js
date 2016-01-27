@@ -49,7 +49,7 @@ var Skills = React.createClass({
 							</div>
 
 							<div className="row">
-								<li className="col-sm-2 col-sm-offset-2">
+								<li className="col-sm-3 col-sm-offset-1">
 									<div><img src="images/passport.png" /></div>
 									PassportJS
 								</li>
@@ -61,7 +61,7 @@ var Skills = React.createClass({
 									<div><img src="images/react.png" /></div>
 									React
 								</li>
-								<li className="col-sm-2">
+								<li className="col-sm-3">
 									<div><img src="images/firebase.png" /></div>
 									Firebase
 								</li>
