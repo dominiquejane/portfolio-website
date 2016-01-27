@@ -49,7 +49,7 @@ var Skills = React.createClass({
 							</div>
 
 							<div className="row">
-								<li className="col-sm-3 col-sm-offset-1">
+								<li className="col-sm-2 col-sm-offset-2">
 									<div><img src="images/passport.png" /></div>
 									PassportJS
 								</li>
