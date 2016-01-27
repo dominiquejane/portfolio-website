@@ -23,6 +23,7 @@ var App = React.createClass({
 		   	<Experience />
 		   	<Education />
 	   	</div>
+	   	<footer className="navbar navbar-inverse"></footer>
 	   </div>
   )
  },

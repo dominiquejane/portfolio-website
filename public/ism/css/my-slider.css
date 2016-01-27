@@ -604,6 +604,11 @@ p.ism-badge a.ism-link:hover {
   color: white;
   padding: 10px;
 }
+.about-text{
+  font-size:20px;
+  font-family: 'Buda', cursive;
+
+}
 .skills {
   margin: 10px 0;
   background-color: rgba(47, 73, 116, 0.4);
@@ -617,4 +622,30 @@ p.ism-badge a.ism-link:hover {
   text-align: center;
 }
 
+.experience-wrapper {
+  margin: 10px 0 0 0 ;
+  width: 100%;
+  font-family: 'Buda', cursive;
+  font-size: 17px;
 
+}
+.experience-button {
+  border-radius: 15px;
+  background-color: #1C2935;
+}
+.education {
+  margin-bottom: 0;
+  font-family: 'Buda', cursive;
+
+}
+a {
+  color: yellow;
+}
+a:hover {
+  color: cornflowerblue;
+}
+a > div {
+  color: white;
+}
+a:hover > div {
+  color: yellow;

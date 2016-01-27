@@ -6,12 +6,12 @@ var Skills = React.createClass({
 		return (
 			<div className="row skills"> 
 				<div className="container">
-
-					<div className="col-sm-3 title">
-						Skills
-					</div>
-
 					<div className="row">
+
+						<div className="col-md-3 title">
+							Skills
+						</div>
+
 						<ul className="col-sm-8 skills-list">
 
 							<div className="row">
@@ -49,11 +49,15 @@ var Skills = React.createClass({
 							</div>
 
 							<div className="row">
-								<li className="col-sm-2 col-sm-offset-2">
+								<li className="col-sm-3 col-sm-offset-1">
+									<div><img src="images/passport.png" /></div>
+									PassportJS
+								</li>
+								<li className="col-sm-2">
 									<div><img src="images/boot.png" /></div>
 									Bootstrap
 								</li>
-								<li className="col-sm-4">
+								<li className="col-sm-2">
 									<div><img src="images/react.png" /></div>
 									React
 								</li>
