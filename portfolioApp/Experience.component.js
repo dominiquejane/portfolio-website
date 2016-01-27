@@ -18,7 +18,7 @@ var Experience = React.createClass({
 								<div className="row">
 									<h3>RECIPE SEARCHER</h3>
 									<div>
-										<a href="http://recipesearcher.herokuapp.com"><h4>http://recipesearcher.herokuapp.com/</h4></a>
+										<a target="_blank" href="http://recipesearcher.herokuapp.com"><h4>http://recipesearcher.herokuapp.com/</h4></a>
 										<h4>Skills utilized:</h4>
 										<p>Javascript, AngularJS, HTML, CSS</p>
 										<h4>Description: </h4>
@@ -31,7 +31,7 @@ var Experience = React.createClass({
 								<div className="row">
 									<h3>BUCKET LIST</h3>
 									<div>
-										<a href="https://github.com/dominiquejane/bucket-list"><h4>https://github.com/dominiquejane/bucket-list</h4></a>
+										<a target="_blank" href="https://github.com/dominiquejane/bucket-list"><h4>https://github.com/dominiquejane/bucket-list</h4></a>
 										<h4>Skills utilized:</h4>
 										<p>Javascript, AngularJS, NodeJS, Express, MongoDB, Mongoose, Bootstrap, PassportJS, HTML, CSS</p>
 										<h4>Description: </h4>
@@ -44,7 +44,7 @@ var Experience = React.createClass({
 								<div className="row">
 									<h3>SKED.US</h3>
 									<div>
-										<a href="https://sked.us"><h4>https://sked.us</h4></a>
+										<a target="_blank" href="https://sked.us"><h4>https://sked.us</h4></a>
 										<h4>Skills utilized:</h4>
 										<p>Javascript, AngularJS, NodeJS, Express, MongoDB, Mongoose, PassportJS, Bootstrap, HTML, CSS</p>
 										<h4>Description: </h4>

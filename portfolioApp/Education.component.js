@@ -15,7 +15,7 @@ var Education = React.createClass({
 
 						<div className="container col-md-8">
 
-							<a href="https://devmounta.in/">
+							<a target="_blank" href="https://devmounta.in/">
 								<div className="col-sm-6">
 									<h3>DEVMOUNTAIN</h3>
 									<div>
@@ -25,7 +25,7 @@ var Education = React.createClass({
 								</div>
 							</a>
 
-							<a href="http://www.uvu.edu/">
+							<a target="_blank" href="http://www.uvu.edu/">
 								<div className="col-sm-6">
 									<h3>UTAH VALLEY UNIVERSITY</h3>
 									<div>
