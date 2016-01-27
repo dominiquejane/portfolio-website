@@ -16,7 +16,7 @@ var Skills = React.createClass({
 
 							<div className="row">
 								<li className="col-sm-2 col-sm-offset-2">
-									<div><img src="images/jslogo.png" /></div>
+									<div><img src="images/JS.png" /></div>
 									Javascript
 								</li>
 								<li className="col-sm-4">
