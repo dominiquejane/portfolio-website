@@ -1,12 +1,12 @@
 import React 			from 'react';
 import ReactDOM 	from 'react-dom';
 
-import About 			from './About.component.js';
-import Connect 		from './Connect.component.js';
-import Skills 		from './Skills.component.js';
-import Experience from './Experience.component.js';
-import Education 	from './Education.component.js';
-import Intro 			from './Intro.component.js';
+import About 			from './About.component';
+import Connect 		from './Connect.component';
+import Skills 		from './Skills.component';
+import Experience from './Experience.component';
+import Education 	from './Education.component';
+import Intro 			from './Intro.component';
 
 
 var App = React.createClass({
