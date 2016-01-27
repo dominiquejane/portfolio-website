@@ -32,12 +32,4 @@ var App = React.createClass({
 });
 
 
-
-
-
-
-
-
-
-
 ReactDOM.render(<App />, document.getElementById('app'));
