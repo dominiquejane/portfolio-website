@@ -5,9 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --content-base public/ --progress --colors",
-    "start": "NODE_ENV=production node server.js",
-    "postinstall": "webpack -p --config webpack.prod.config.js --profile --progress --colors"
+    "dist": "webpack -p",
+    "postinstall": "npm run dist"
   },
   "author": "",
   "license": "ISC",
