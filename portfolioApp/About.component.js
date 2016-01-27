@@ -11,7 +11,7 @@ var About = React.createClass({
 
 					<div className="col-md-8 about-text">
 						<p>
-							I am a web developer from Dallas, TX. I love finding creative ways to solve problems and learn from different perspectives. I have created websites with Javascript, AngularJS, NodeJS, MongoDB and Bootstrap, to name a few. I am currently learning to build with React (e.g. this website you are looking at was built with React!). I am currently looking for opportunities that will challenge me and help me grow as a web developer.
+							I am a web developer from Dallas, TX. I love finding creative ways to solve problems and learning from different perspectives. I have created websites with Javascript, AngularJS, NodeJS, MongoDB and Bootstrap, to name a few. I am currently learning to build with React (e.g. this website you are looking at was built with React!). I am currently looking for opportunities that will challenge me and help me grow as a web developer.
 						</p>
 					</div>
 					</div>
