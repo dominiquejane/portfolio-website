@@ -16,6 +16,10 @@ app.use(express.static(__dirname + '/public'));
 //   console.log('listening on port: ', port);
 // });
 
+app.get('/', function(request, response) {
+  response.sendFile(__dirname + '/public/index.html')
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
