@@ -12,17 +12,17 @@ var Experience = React.createClass({
 							Experience
 						</div>
 
-						<div className="col-md-8">
+							<div className="col-md-8">
 							<div className="container experience-wrapper">
-
+								
 								<div className="row">
-									<h3>RECIPE SEARCHER</h3>
+									<h3>SKED.US</h3>
 									<div>
-										<a target="_blank" href="http://recipesearcher.herokuapp.com"><h4>http://recipesearcher.herokuapp.com/</h4></a>
+										<a target="_blank" href="http://sked.us"><h4>http://sked.us</h4></a>
 										<h4>Skills utilized:</h4>
-										<p>Javascript, AngularJS, HTML, CSS</p>
+										<p>Javascript, AngularJS, NodeJS, Express, MongoDB, Mongoose, PassportJS, Bootstrap, HTML, CSS</p>
 										<h4>Description: </h4>
-										<p>This was a front-end-focused website. It relied on a recipe API from food2fork.com. Users are able to search for recipes based on name or ingredients. Quick searches were also integrated for users to find a quick recipe idea for appetizers, dinners, and desserts. </p>
+										<p>My primary role was setting up the authentication and back-end of this full-stack website. This web application aimed to solve the scheduling issues of a nearby non-profit organization. Users were able to create and/or join organizations in order to create and schedule times for mentees to meet with mentors.</p>
 									</div>
 								</div>
 
@@ -31,7 +31,7 @@ var Experience = React.createClass({
 								<div className="row">
 									<h3>BUCKET LIST</h3>
 									<div>
-										<a target="_blank" href="https://github.com/dominiquejane/bucket-list"><h4>https://github.com/dominiquejane/bucket-list</h4></a>
+										<a target="_blank" href="https://bucketlist-dominiquejane.c9users.io"><h4>https://bucketlist-dominiquejane.c9users.io</h4></a>
 										<h4>Skills utilized:</h4>
 										<p>Javascript, AngularJS, NodeJS, Express, MongoDB, Mongoose, Bootstrap, PassportJS, HTML, CSS</p>
 										<h4>Description: </h4>
@@ -42,13 +42,13 @@ var Experience = React.createClass({
 								<hr></hr>
 
 								<div className="row">
-									<h3>SKED.US</h3>
+									<h3>RECIPE SEARCHER</h3>
 									<div>
-										<a target="_blank" href="https://sked.us"><h4>https://sked.us</h4></a>
+										<a target="_blank" href="http://recipesearcher.herokuapp.com"><h4>http://recipesearcher.herokuapp.com/</h4></a>
 										<h4>Skills utilized:</h4>
-										<p>Javascript, AngularJS, NodeJS, Express, MongoDB, Mongoose, PassportJS, Bootstrap, HTML, CSS</p>
+										<p>Javascript, AngularJS, HTML, CSS</p>
 										<h4>Description: </h4>
-										<p>My primary role was setting up the authentication and back-end of this full-stack website. This web application aimed to solve the scheduling issues of a nearby non-profit organization. Users were able to create and/or join organizations in order to create and schedule times for mentees to meet with mentors.</p>
+										<p>This was a front-end-focused website. It relied on a recipe API from food2fork.com. Users are able to search for recipes based on name or ingredients. Quick searches were also integrated for users to find a quick recipe idea for appetizers, dinners, and desserts. </p>
 									</div>
 								</div>
 
