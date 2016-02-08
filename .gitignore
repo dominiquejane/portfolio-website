@@ -2,3 +2,4 @@ node_modules
 namecheap.pdf
 .DS_Store
 public/bundle.js
+npm-debug.log

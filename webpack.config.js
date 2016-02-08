@@ -1,9 +1,13 @@
 module.exports = {
 	entry:
-		{main: './portfolioApp/App.component.js'},
+		{
+			main: './portfolioApp/App.component.js'
+		},
 	output:
-		{filename: 'bundle.js'}, //created by program
-	path: './public', //typical
+		{
+			filename: 'bundle.js',
+			path: './public', //typical
+		}, //created by program
 	devtool: 'source map', //optional??
 	module: {
 		loaders: [ {

@@ -2,11 +2,12 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
   "postinstall": "webpack --config ./webpack-prod.config.js --progress --colors",
   "start": "node server.js"
+
   },
   "author": "",
   "license": "ISC",
@@ -29,7 +30,13 @@
     ]
   },
   "dependencies": {
+    "babel": "^6.3.26",
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
     "react": "^0.14.5",
-    "react-dom": "^0.14.5"
+    "react-dom": "^0.14.5",
+    "request": "^2.67.0",
+    "webpack": "^1.12.12"
   }
 }
