@@ -8,7 +8,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  "postinstall": "npm run webpack -p"
+  "start": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p"
   },
   "author": "",
   "license": "ISC",
