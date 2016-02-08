@@ -1,3 +1,4 @@
+
 import React 			from 'react';
 import ReactDOM 	from 'react-dom';
 
@@ -9,9 +10,28 @@ import Education 	from './Education.component.js';
 import Intro 			from './Intro.component.js';
 
 
+
 var App = React.createClass({
      
      
+<<<<<<< HEAD
+     render() {
+          return (
+               <div>
+               
+               </div>
+          )
+     }
+})
+
+
+
+
+
+
+
+
+=======
  render() {
   return (
 	   <div>
@@ -30,6 +50,7 @@ var App = React.createClass({
 
 
 });
+>>>>>>> master
 
 
 ReactDOM.render(<App />, document.getElementById('app'));
