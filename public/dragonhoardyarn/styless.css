@@ -1,0 +1,252 @@
+h2 {
+  font-family: "Birch std";
+}
+p {
+  font-family: "Avenir Next Condensed";
+  font-size: 1.3em;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #fff;
+}
+/*-------------HEADER---------------*/
+#title {
+  text-align: center;
+}
+header {
+  height: 6em;
+  margin-bottom: 1.5em;
+}
+header h1 a {
+  font-size: 2em;
+  color: #89F2DB;
+  text-shadow: 0.1em 0.05em 0.1em #e0ddd7;
+}
+header h1 a:visited,
+header h1 a:hover {
+  color: #89F2DB;
+}
+header h1 a:hover {
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  header h1 a {
+    font-size: 1.2em;
+  }
+  header {
+    height: 3.7em;
+  }
+}
+/*-------------SOCIAL---------------*/
+#social-content {
+  text-align: center;
+  margin-top: 3em;
+}
+.social-img {
+  height: 2.5em;
+  width: 2.5em;
+}
+#social-content > a:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+#instagram {
+  height: 2.8em;
+  width: 2.8em;
+  margin-left: 0.9em;
+}
+#twitter {
+  height: 4em;
+  width: 4em;
+}
+.social-link-menu {
+  display: inline-block;
+}
+@media screen and (max-width: 1080px) {
+  #social-content {
+    visibility: hidden;
+  }
+  #social-content-menu > div > a {
+    text-decoration: none;
+  }
+  #social-content-menu > a:hover {
+    color: black;
+    cursor: default;
+  }
+  .social-img,
+  #twitter,
+  #instagram {
+    padding: 10px;
+    height: 4.5em;
+    width: 4.5em;
+  }
+  .social-img:hover {
+    background-color: #dbfcf4;
+  }
+}
+@media screen and (max-width: 990px) {
+  #social-content {
+    display: none;
+  }
+}
+@media screen and (min-width: 752px) {
+  #social-content-menu {
+    display: none;
+  }
+}
+/*-------------NAV-SMALL---------------*/
+.navbar-default {
+  background-color: #89F2DB;
+  border: none;
+}
+.navbar-toggle {
+  float: left;
+  margin-left: 1em;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #89F2DB;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+  background-color: white;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: white;
+}
+/*-------------NAV-BIG---------------*/
+nav {
+  width: 100%;
+}
+#link-container {
+  width: 60em;
+  margin: auto;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  background-color: #89F2DB;
+}
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  font-size: 2.5em;
+  font-family: "Birch std";
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #dbfcf4;
+}
+ul.nav.navbar-nav {
+  width: 100%;
+  padding: 0.5em 0;
+}
+.navbar-nav > li {
+  margin: 0;
+  padding: 0;
+  margin-left: 2.8em;
+}
+@media screen and (max-width: 840px) {
+  .navbar-default .navbar-nav > li > a {
+    font-size: 2em;
+  }
+  ul.nav.navbar-nav {
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-nav > li {
+    margin-left: 0;
+  }
+}
+/*-------------CAROUSEL---------------*/
+img {
+  margin: 0;
+  padding: 0;
+  width: 20em;
+  height: 20em;
+}
+.owl-carousel-item {
+  width: 21em;
+  height: 21em;
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: #89F2DB;
+  border: 0.5em solid #89F2DB;
+}
+.owl-carousel {
+  width: 67em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5em;
+}
+.owl-theme .owl-nav [class*='owl-'],
+.owl-theme .owl-dots .owl-dot span {
+  background: #939392;
+}
+.owl-theme .owl-nav [class*='owl-']:hover,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #89F2DB;
+}
+@media screen and (max-width: 960px) {
+  .owl-carousel {
+    width: 50em;
+  }
+  img {
+    width: 15em;
+    height: 15em;
+    margin: 0;
+  }
+  .owl-carousel-item {
+    width: 16em;
+    height: 16em;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .owl-carousel {
+    width: 100%;
+  }
+  img {
+    width: 8em;
+    height: 8em;
+    margin: 0;
+  }
+  .owl-carousel-item {
+    width: 9em;
+    height: 9em;
+    margin: 0;
+    margin-left: 0.25em;
+  }
+}
+/*------------BOX HEADERS----------------*/
+.container-header {
+  width: 100%;
+  margin: 0;
+  padding: 0.5em 0 0 0;
+  background-color: #89F2DB;
+  border-bottom: 1px solid #979797;
+}
+h2 {
+  padding: 0;
+  margin: 0;
+  margin-left: 1em;
+}
+/*------------BOX STYLE----------------*/
+.box-container {
+  margin: 1em 0;
+  border: 1px solid #979797;
+  display: inline-block;
+}
+/*-------------WELCOME---------------*/
+#welcome-container p {
+  padding: 0.5em;
+}
+/*------------COMMENTS----------------*/
+.comment-img {
+  margin: 5px;
+  width: 100%;
+  height: 100%;
+}
+/*----------------------------*/
